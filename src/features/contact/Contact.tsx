@@ -17,7 +17,7 @@ const Contact = () => {
       initialOpacity={0}
       animateOpacity
       scale={1}
-      threshold={0.7}
+      threshold={0.6}
       delay={0}
     >
       <div id="contact" className="py-24 pt-64">

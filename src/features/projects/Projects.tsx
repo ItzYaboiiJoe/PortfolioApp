@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="mx-auto w-full max-w-7xl px-6">
         <div className="mb-16">
           <p className="mb-4 text-sm font-medium tracking-[0.25em] text-blue-300">
-            SELECTED WORK
+            PROJECTS
           </p>
 
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">

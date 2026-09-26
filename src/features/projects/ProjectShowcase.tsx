@@ -18,9 +18,9 @@ const ProjectShowcase = ({ project, index }: ProjectShowcaseProps) => {
       }`}
     >
       <div>
-        <p className="mb-3 text-sm font-medium tracking-widest text-blue-300">
+        {/* <p className="mb-3 text-sm font-medium tracking-widest text-blue-300">
           {String(index + 1).padStart(2, "0")}
-        </p>
+        </p> */}
 
         <h3 className="text-3xl font-bold tracking-tight text-white">
           {project.name}
