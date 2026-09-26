@@ -1,5 +1,8 @@
+"use client";
+
 import { projectsData } from "./projectsData";
 import ProjectShowcase from "./ProjectShowcase";
+import AnimatedContent from "@/components/AnimatedContent";
 
 const Projects = () => {
   return (
@@ -21,9 +24,25 @@ const Projects = () => {
         </div>
 
         <div className="space-y-32">
-          {projectsData.map((project, index) => (
-            <ProjectShowcase key={project.id} project={project} index={index} />
-          ))}
+          <div className="space-y-32">
+            {projectsData.map((project, index) => (
+              <AnimatedContent
+                key={project.id}
+                distance={50}
+                direction="vertical"
+                reverse={false}
+                duration={1}
+                ease="power3.out"
+                initialOpacity={0}
+                animateOpacity
+                scale={1}
+                threshold={0.4}
+                delay={0}
+              >
+                <ProjectShowcase project={project} index={index} />
+              </AnimatedContent>
+            ))}
+          </div>
         </div>
       </div>
     </div>
