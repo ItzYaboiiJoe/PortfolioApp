@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="flex min-h-[calc(100vh-4rem)] items-center">
+    <div className="flex py-24 pt-64 items-center">
       <div className="mx-auto w-full max-w-5xl px-6 text-center">
         <p className="mb-4 text-sm font-medium tracking-[0.25em] text-blue-300">
           SOFTWARE DEVELOPER
