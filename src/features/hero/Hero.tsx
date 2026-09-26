@@ -17,7 +17,7 @@ const Hero = () => {
           </span>
         </h1>
 
-        <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-white/60">
+        <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-white/70">
           I build modern, responsive applications focused on clean interfaces,
           reliable functionality, and useful user experiences.
         </p>

@@ -26,7 +26,7 @@ const ProjectShowcase = ({ project, index }: ProjectShowcaseProps) => {
           {project.name}
         </h3>
 
-        <p className="mt-4 max-w-xl leading-7 text-white/60">
+        <p className="mt-4 max-w-xl leading-7 text-white/70">
           {project.description}
         </p>
 

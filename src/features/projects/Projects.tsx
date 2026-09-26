@@ -14,7 +14,7 @@ const Projects = () => {
             Projects I&apos;ve built.
           </h2>
 
-          <p className="mt-4 max-w-2xl text-lg leading-8 text-white/60">
+          <p className="mt-4 max-w-2xl text-lg leading-8 text-white/70">
             A selection of applications I&apos;ve designed and developed,
             ranging from interactive experiences to full-featured platforms.
           </p>
