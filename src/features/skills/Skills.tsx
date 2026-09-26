@@ -49,10 +49,10 @@ const Skills = () => {
       initialOpacity={0}
       animateOpacity
       scale={1}
-      threshold={0.6}
+      threshold={0.5}
       delay={0}
     >
-      <div id="skills" className="py-24 pt-64">
+      <div id="skills" className="py-24 pt-50">
         <div className="mx-auto w-full max-w-7xl px-6">
           <div className="mb-16">
             <p className="mb-4 text-sm font-medium tracking-[0.25em] text-blue-300">

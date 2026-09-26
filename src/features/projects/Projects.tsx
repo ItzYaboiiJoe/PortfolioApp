@@ -6,7 +6,7 @@ import AnimatedContent from "@/components/AnimatedContent";
 
 const Projects = () => {
   return (
-    <div id="projects" className="py-24 pt-64">
+    <div id="projects" className="pt-50">
       <div className="mx-auto w-full max-w-7xl px-6">
         <div className="mb-16">
           <p className="mb-4 text-sm font-medium tracking-[0.25em] text-blue-300">

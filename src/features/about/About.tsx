@@ -13,10 +13,10 @@ const About = () => {
       initialOpacity={0}
       animateOpacity
       scale={1}
-      threshold={0.6}
+      threshold={0.5}
       delay={0}
     >
-      <div id="about" className="py-24 pt-64">
+      <div id="about" className="pt-50">
         <div className="mx-auto w-full max-w-7xl px-6">
           <p className="mb-4 text-sm font-medium tracking-[0.25em] text-blue-300">
             ABOUT ME
