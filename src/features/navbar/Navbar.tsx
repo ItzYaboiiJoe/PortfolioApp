@@ -12,6 +12,7 @@ const Navbar = () => {
             width={36}
             height={36}
             className="rounded-lg"
+            loading="eager"
           />
 
           <span className="font-semibold text-white">Joseph Seoudy</span>

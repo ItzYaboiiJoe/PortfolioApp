@@ -31,7 +31,7 @@ const Background = () => {
         grain={0.025}
         lightMode={false}
         dpr={1}
-        fps={60}
+        fps={30}
         paused={false}
       />
     </div>
