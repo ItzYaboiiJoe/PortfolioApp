@@ -3,6 +3,8 @@ import "../styles/globals.css";
 import { Noto_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import Background from "@/components/Background";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const notoSans = Noto_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -22,6 +24,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Background />
 
         {children}
+
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
