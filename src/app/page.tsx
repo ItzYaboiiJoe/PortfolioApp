@@ -1,5 +1,7 @@
+import Navbar from "@/features/navbar/Navbar";
+
 const HomePage = () => {
-  return <div>Home Page</div>;
+  return <Navbar />;
 };
 
 export default HomePage;
