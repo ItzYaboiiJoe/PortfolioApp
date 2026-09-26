@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { IoLogoGithub } from "react-icons/io5";
 
 const Hero = () => {
   return (
@@ -47,6 +48,7 @@ const Hero = () => {
               rel="noopener noreferrer"
               className="flex h-full w-full items-center px-4"
             >
+              <IoLogoGithub className="size-4 mr-2" />
               GitHub
             </Link>
           </Button>
