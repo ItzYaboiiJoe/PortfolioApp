@@ -27,12 +27,12 @@ const Hero = () => {
             size="lg"
             className="bg-blue-600 p-0 text-white hover:bg-blue-700"
           >
-            <Link
+            <a
               href="#projects"
               className="flex h-full w-full items-center px-4"
             >
               View My Work
-            </Link>
+            </a>
           </Button>
 
           {/* Github Link */}

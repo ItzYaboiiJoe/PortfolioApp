@@ -19,33 +19,33 @@ const Navbar = () => {
         </Link>
 
         <div className="flex items-center gap-8 text-sm">
-          <Link
+          <a
             href="#projects"
             className="text-white/70 transition-colors hover:text-white"
           >
             Projects
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="#skills"
             className="text-white/70 transition-colors hover:text-white"
           >
             Skills
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="#about"
             className="text-white/70 transition-colors hover:text-white"
           >
             About
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="#contact"
             className="text-white/70 transition-colors hover:text-white"
           >
             Contact
-          </Link>
+          </a>
         </div>
       </nav>
     </header>
