@@ -12,6 +12,7 @@ const skillGroups = [
       "TypeScript",
       "React",
       "Next.js",
+      "Vite",
       "Tailwind CSS",
       "shadcn/ui",
     ],
@@ -21,6 +22,8 @@ const skillGroups = [
     skills: [
       "C#",
       ".NET",
+      "ASP.NET Core Web API",
+      "Entity Framework Core",
       "Supabase",
       "PostgreSQL",
       "Microsoft SQL Server",
@@ -30,11 +33,11 @@ const skillGroups = [
   },
   {
     title: "Automation",
-    skills: ["Fortra Automate", "Microsoft Power Automate"],
+    skills: ["Fortra Automate", "Microsoft Power Automate", "UiPath"],
   },
   {
     title: "Tools",
-    skills: ["Git", "GitHub", "Vercel", "SSMS"],
+    skills: ["Git", "GitHub", "Vercel", "Cloudflare", "Docker", "SSMS"],
   },
 ];
 

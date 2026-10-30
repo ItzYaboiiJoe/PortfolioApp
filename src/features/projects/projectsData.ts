@@ -73,4 +73,23 @@ export const projectsData: Project[] = [
     ],
     status: "development",
   },
+  {
+    id: "clientnudge",
+    name: "ClientNudge",
+    description:
+      "A client relationship management platform that helps businesses organize customers, track leads, and manage follow-ups in one centralized workspace.",
+    image: "/projects/ClientNudge.png",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "ASP.NET Core Web API",
+      "C#",
+      "PostgreSQL",
+      "Supabase",
+      "Tailwind CSS",
+      "shadcn/ui",
+    ],
+    status: "development",
+  },
 ];
