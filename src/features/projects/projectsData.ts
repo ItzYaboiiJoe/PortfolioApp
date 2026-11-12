@@ -11,6 +11,16 @@ export type Project = {
 
 export const projectsData: Project[] = [
   {
+    id: "loonydevs",
+    name: "LoonyDevs",
+    description:
+      "A developer website showcasing iOS and web applications, games, and software development services, featuring custom-built projects and products.",
+    image: "/projects/LoonyDevs.png",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+    liveUrl: "https://loonydevs.com/",
+    status: "live",
+  },
+  {
     id: "pivotsports",
     name: "PivotSports",
     description:
